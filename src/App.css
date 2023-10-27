@@ -95,3 +95,8 @@
 .back-button:hover {
   transform: scale(1.2); /* Adjust scale factor as needed */
 }
+
+.text{
+  color:#525453;
+  font-family: serif;
+}
