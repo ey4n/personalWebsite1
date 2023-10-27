@@ -57,6 +57,16 @@
   opacity: 1;
 }
 
+
+/* Media query for mobile phones (e.g., screen width up to 600px) */
+@media only screen and (max-width: 600px) {
+  .background-video {
+    width: 100vw; /* Set the video to 100% of the viewport width */
+    height: auto; /* Let the height adjust proportionally to the aspect ratio */
+  }
+}
+
+
 .VerticalTimeline {
   z-index: 0; /* Adjust this value as needed */
 }
