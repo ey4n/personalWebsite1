@@ -14,7 +14,7 @@ const Others: React.FC = () => {
     <video className="background-video" autoPlay loop muted>
     <source src={backgroundVideo} type="video/mp4" />
     </video>
-    <div style={{display: 'flex', flexDirection:'row', justifyContent: 'flex-around', width:'2000px', gap: '50px', alignSelf:'center',marginLeft:'70px'}}>
+    <div style={{display: 'flex', flexDirection:'row', justifyContent: 'flex-around', width:'1000px', gap: '50px', alignSelf:'center',marginLeft:'70px'}}>
     <Card className='card' style={{ width: '18rem', boxShadow: '5px 5px 15px rgba(0,0,0,0.3)', backgroundColor: 'rgba(245, 245, 245, 0.7)'}}>
       <Card.Img variant="top" src={tutor} style={{width:200, boxShadow: '5px 5px 15px rgba(0,0,0,0.3)'}} />
       <Card.Body>
