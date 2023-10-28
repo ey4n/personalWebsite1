@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Tutors: React.FC = () => {
     return (
         <div className="tutor">
+         <div className="mobile-background"></div>          
         <Link to="/otherStuff">
         <button className="back-button">Back</button>
         </Link>
@@ -26,6 +27,7 @@ const Tutors: React.FC = () => {
         </div>
         </div>
         </div>
+
     )
 }
 

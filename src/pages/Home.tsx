@@ -7,6 +7,7 @@ import backgroundVideo from '../images/background.mp4'
 const Home: React.FC = () => {
   return (
     <div className="home">
+      <div className="mobile-background">
     <video className="background-video" autoPlay loop muted>
     <source src={backgroundVideo} type="video/mp4" />
     </video>
@@ -27,6 +28,7 @@ const Home: React.FC = () => {
         </div>
       </div>
       </div>
+    </div>
     </div>
   );
 };

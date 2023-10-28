@@ -60,17 +60,18 @@
   .background-video {
     display: none;
   }
-  .home {
-    /* replace with your image */
-    background: url('/src/images/mobileBackground.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: -1;
+  .mobile-background {
+      height: 100vh;
+      width: 100%;
+      background: url('/src/images/mobileBackground.jpg') no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      z-index: -1;
+    }
   }
-}
-
+  
 
 
 .VerticalTimeline {

@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 const Others: React.FC = () => {
   return (
     <div className='others'>
+      <div className="mobile-background">
     <video className="background-video" autoPlay loop muted>
     <source src={backgroundVideo} type="video/mp4" />
     </video>
@@ -51,6 +52,7 @@ const Others: React.FC = () => {
         </Link>
       </Card.Body>
     </Card>
+    </div>
     </div>
     </div>
 

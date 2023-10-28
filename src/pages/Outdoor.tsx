@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Outdoor: React.FC = () => {
     return (
         <div className="tutor">
+        <div className="mobile-background">
         <Link to="/otherStuff">
         <button className="back-button">Back</button>
         </Link>
@@ -23,6 +24,7 @@ const Outdoor: React.FC = () => {
         <div className="tutor2" style={{display:'flex', backgroundColor: 'rgba(245, 245, 245, 0.7)',flexDirection:'column', height: '200px',  width: '500px',boxShadow: '5px 5px 15px rgba(0,0,0,0.3)', padding:'30px'}}>
         <h2 className='text'>Clementi Forest Hike</h2>
         <p className='text'>In collaboration with the NTU Alumni Club, I had the privilege of leading and guiding participants on a memorable hike through Clementi Forest.</p>
+        </div>
         </div>
         </div>
         </div>

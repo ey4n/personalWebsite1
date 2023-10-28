@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Dance: React.FC = () => {
     return (
         <div className="tutor">
+        <div className="mobile-background">
         <Link to="/otherStuff">
         <button className="back-button">Back</button>
         </Link>
@@ -23,6 +24,7 @@ const Dance: React.FC = () => {
         <div className="tutor2" style={{display:'flex', backgroundColor: 'rgba(245, 245, 245, 0.7)',flexDirection:'column', height: '200px',  width: '500px',boxShadow: '5px 5px 15px rgba(0,0,0,0.3)', padding:'30px'}}>
         <h2 className='text'>Converge Recital</h2>
         <p className='text'>In 2021, I became a part of the Converge dance studio and took on the role of a dancer for their spectacular recital titled 'WINNER'.</p>
+        </div>
         </div>
         </div>
         </div>
