@@ -63,7 +63,6 @@
   .mobile-background {
       background: url('/src/images/mobileBackground.jpg'); 
       z-index: -1;
-      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
