@@ -6,15 +6,19 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import "../App.css";
 import backgroundVideo from '../images/background.mp4'
+import {useMediaQuery} from '@react-hooks-library/core';
 
 const Education: React.FC = () => {
+  const isPageSmall = useMediaQuery('(max-width: 600px)');
   return (
     <div className="experience">
-      <div className="mobile-background">
-        </div>
-      <video className="background-video" autoPlay loop muted>
-    <source src={backgroundVideo} type="video/mp4" />
-    </video>
+      {isPageSmall ? (
+        <div className="mobile-background"></div>
+      ) : (
+        <video className="background-video" autoPlay loop muted>
+          <source src={backgroundVideo} type="video/mp4" />
+        </video>
+      )}
       <div style={{backgroundColor: 'rgba(245, 245, 245, 0.7)',left:'0',right:'0'}}>
       <VerticalTimeline lineColor="#fcc9e7" >
         <VerticalTimelineElement

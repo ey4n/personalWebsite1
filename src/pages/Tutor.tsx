@@ -2,16 +2,21 @@ import React from "react";
 import "../App.css";
 import backgroundVideo from '../images/background.mp4'
 import { Link } from 'react-router-dom';
+import {useMediaQuery} from '@react-hooks-library/core';
 const Tutors: React.FC = () => {
+    const isPageSmall = useMediaQuery('(max-width: 600px)');
     return (
         <div className="tutor">
-         <div className="mobile-background"></div>          
+        {isPageSmall ? (
+        <div className="mobile-background"></div>
+      ) : (
+        <video className="background-video" autoPlay loop muted>
+          <source src={backgroundVideo} type="video/mp4" />
+        </video>
+      )}         
         <Link to="/otherStuff">
         <button className="back-button">Back</button>
         </Link>
-        <video className="background-video" autoPlay loop muted>
-        <source src={backgroundVideo} type="video/mp4" />
-        </video>
         <div className="tutor1" style={{display:'flex', flexDirection: 'column', justifyContent:'center', gap:'50px',marginBottom:'300px', marginTop:'200px'}}>
         <div className="tutor2" style={{display:'flex', backgroundColor: 'rgba(245, 245, 245, 0.7)',flexDirection:'column', height: '200px', width: '500px', boxShadow: '5px 5px 15px rgba(0,0,0,0.3)', padding:'30px'}}>
         <h2 className='text'>Tutor with Nanyang Student Assistant Scheme</h2>

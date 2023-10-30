@@ -6,16 +6,20 @@ import odac from '../images/odac.jpg';
 import '../App.css'
 import backgroundVideo from '../images/background.mp4'
 import { Link } from 'react-router-dom';
+import {useMediaQuery} from '@react-hooks-library/core';
 
 
 const Others: React.FC = () => {
+  const isPageSmall = useMediaQuery('(max-width: 600px)');
   return (
     <div className='others'>
-      <div className="mobile-background">
-    </div>
-    <video className="background-video" autoPlay loop muted>
-    <source src={backgroundVideo} type="video/mp4" />
-    </video>
+      {isPageSmall ? (
+        <div className="mobile-background"></div>
+      ) : (
+        <video className="background-video" autoPlay loop muted>
+          <source src={backgroundVideo} type="video/mp4" />
+        </video>
+      )}
     <div style={{display: 'flex', flexDirection:'row', justifyContent: 'flex-around', width:'1000px', gap: '50px', alignSelf:'center',marginLeft:'70px'}}>
     <Card className='card' style={{ width: '18rem', boxShadow: '5px 5px 15px rgba(0,0,0,0.3)', backgroundColor: 'rgba(245, 245, 245, 0.7)'}}>
       <Card.Img variant="top" src={tutor} style={{width:200, boxShadow: '5px 5px 15px rgba(0,0,0,0.3)'}} />
