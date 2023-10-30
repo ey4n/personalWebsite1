@@ -12,6 +12,7 @@ const Others: React.FC = () => {
   return (
     <div className='others'>
       <div className="mobile-background">
+    </div>
     <video className="background-video" autoPlay loop muted>
     <source src={backgroundVideo} type="video/mp4" />
     </video>
@@ -52,7 +53,6 @@ const Others: React.FC = () => {
         </Link>
       </Card.Body>
     </Card>
-    </div>
     </div>
     </div>
 

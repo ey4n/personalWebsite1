@@ -11,6 +11,7 @@ const Education: React.FC = () => {
   return (
     <div className="experience">
       <div className="mobile-background">
+        </div>
       <video className="background-video" autoPlay loop muted>
     <source src={backgroundVideo} type="video/mp4" />
     </video>
@@ -61,7 +62,6 @@ const Education: React.FC = () => {
           <p style={{fontFamily:'serif',color:'#525453'}}>Raffles Girls Dance International</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
-    </div>
     </div>
     </div>
   );
