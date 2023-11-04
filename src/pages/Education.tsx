@@ -43,7 +43,7 @@ const Education: React.FC = () => {
         >
           <div className="timeline-content">
             <h3 className="vertical-timeline-element-title" style={{fontFamily:'serif',color:'#525453'}}>
-              Raffles Instutuition 
+              Raffles Instituition 
             </h3>
             <h4 style={{fontFamily:'serif',color:'#525453'}}>2020 - 2021</h4>
             <p style={{fontFamily:'serif', color:'#525453'}}>H2 subjects: Math, Economics, Physics, Chemistry</p>
