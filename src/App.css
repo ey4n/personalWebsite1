@@ -86,7 +86,7 @@
 }
 
 .card:hover {
-  transform: scale(1.2); /* Adjust scale factor as needed */
+  transform: scale(1.1); /* Adjust scale factor as needed */
 }
 
 .button {
@@ -94,7 +94,7 @@
 }
 
 .button:hover {
-  transform: scale(1.2); /* Adjust scale factor as needed */
+  transform: scale(1.1); /* Adjust scale factor as needed */
 }
 
 .tutor2{
@@ -102,7 +102,7 @@
 }
 
 .tutor2:hover{
-  transform: scale(1.2); /* Adjust scale factor as needed */
+  transform: scale(1.05); /* Adjust scale factor as needed */
 }
 
 .back-button{
