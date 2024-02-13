@@ -1,2 +1,2 @@
 # personalWebsite1
-https://personal-website1-iota.vercel.app/
+https://eyanswebsite-iota.vercel.app/
